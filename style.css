@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to left, #ff5e62, #ff9966);
+  height:100vh;
+  width:100vw;
+
+  /* background: linear-gradient(90deg, rgba(96,112,195,1) 0%, rgba(235,58,98,1) 94%, rgba(252,70,107,1) 100%); ; */
+}
+.main {
+  width: 30vw;
+  height: 70vh;
+  margin: auto;
+  text-align: center;
+  background-color: bisque;
+  position: relative;
+  top: 110px;
+  border: 5px;
+  border-radius: 10px;
+}
+h1 {
+  font-size: 2.7rem;
+  font-family: "Orbitron", sans-serif;
+  padding:0.9rem 0.7rem;
+  color: #841fac;
+ 
+}
+h2 {
+  font-size: 30px;
+}
+textarea{
+    margin:38px 0;
+    border-radius: 5px;
+   
+}
+textarea:hover{
+    border:1px dotted #841fac;
+}
+button {
+  padding: 5px 18px;
+  border-radius: 9px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 400;
+  background: linear-gradient(
+    90deg,
+    #6070c3 0%,
+    rgba(235, 58, 98, 1) 94%,
+    #fc466b 100%
+  );
+}
+.checking{
+    padding:18px 5px 10px 5px;
+}
+button:hover{
+    color:white;
+    background:linear-gradient(to left, #ff5e62, #ff9966); ;
+}
